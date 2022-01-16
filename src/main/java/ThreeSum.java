@@ -1,6 +1,8 @@
 import java.util.*;
 
 public class ThreeSum {
+
+    // 利用双指针求解
     public List<List<Integer>> threeSum2(int[] nums){
         Arrays.sort(nums);
         List<List<Integer>> resList = new ArrayList<List<Integer>>();
